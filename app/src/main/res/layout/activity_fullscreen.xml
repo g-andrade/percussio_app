@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_horizontal"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/linear_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#CC8FD8D8"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:paddingBottom="20px">
+
+        <Button
+            android:id="@+id/play_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="#00FFFFFF"
+            android:text="PLAY ▶"
+            android:textColor="#FFFFFF"></Button>
+        <!--android:drawableTop="@drawable/snap"-->
+        <Button
+            android:id="@+id/stop_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="#00FFFFFF"
+            android:text="STOP ⏹"
+            android:textColor="#FFFFFF"></Button>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#CC8FD8D8"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:paddingBottom="20px"
+        android:visibility="gone" />
+</LinearLayout>

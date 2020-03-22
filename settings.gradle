@@ -1,0 +1,2 @@
+rootProject.name='Percussio'
+include ':app'
